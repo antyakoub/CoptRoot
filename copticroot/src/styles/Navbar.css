@@ -1,0 +1,103 @@
+/* Add styles for the logo */
+.navbar-logo {
+    height: 80px; /* Adjust this value as needed for the logo size */
+    margin-right: 20px; /* Space between the logo and the navbar items */
+    vertical-align: middle; /* Align logo with text */
+    transform: translateY(-16px);
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    position: relative; /* Fixed position for navbar */
+    top: 0;
+    z-index: 1; /* Navbar stays above the video */
+    background-color: transparent; /* No background color */
+    font-size: 1.5rem;
+}
+
+.navbar-black-text a {
+    color: black;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullets from main navbar */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display the navbar items in a row */
+}
+
+.navbar li {
+    position: relative; /* Important for dropdown positioning */
+}
+
+.navbar li a {
+    display: block;
+    padding: 14px 10px;
+    color: rgb(255, 255, 255); /* Text color for navbar items */
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; /* Font family for navbar items */
+    font-weight: 350; /* Font weight for navbar items (Light) */
+    font-size: 20px; /* Font size for navbar items */
+    line-height: 19px; /* Line height for navbar items */
+}
+
+.navbar li a:hover {
+    font-weight: 1000; /* Increase font weight for bold effect on hover */
+    font-size: 22px;
+    color: rgb(255, 255, 255); /* Keep the text color white */
+    transition: font-weight 0.3s ease; /* Smooth transition for font weight */
+}
+
+/* Dropdown styles */
+.dropdown-content {
+    visibility: hidden;
+    opacity: 0; /* Set opacity to 0 for smooth fade-in */
+    display: none; /* Initially hide dropdown */
+    position: absolute; /* Position it relative to the parent */
+    background-color: black; /* Match the navbar background for consistency */
+    min-width: 230px; /* Minimum width of dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    z-index: 1; /* Ensure dropdown is above other content */
+    left: 0; /* Align dropdown to the left of the parent */
+}
+
+/* Remove bullet points from dropdown items */
+.dropdown-content li {
+    list-style-type: none; /* Remove bullets from dropdown items */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown on hover */
+    visibility: visible; /* Make dropdown visible on hover */
+    opacity: 1; /* Fade-in effect */
+    transition-delay: 0s; /* No delay when showing */
+}
+
+/* Style for dropdown items */
+.dropdown-content li a {
+    color: rgb(255, 255, 255); /* Default text color for dropdown items */
+    padding: 8px 15px; /* Padding for dropdown items */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make the link occupy the entire area */
+    text-align: left;
+    font-family: 'Roboto', sans-serif; /* Font family for dropdown items */
+    font-weight: 300; /* Font weight for dropdown items (Light) */
+    font-size: 20px; /* Font size for dropdown items */
+    line-height: 19px; /* Line height for dropdown items */
+}
+
+/* Specific styles for dropdown items on the Dioceses page */
+.literature-dropdown-content li a,
+.media-dropdown-content li a {
+    color: white; /* Set dropdown text to white for Dioceses page */
+}
+
+/* Optional: Adjust hover color for dropdown items */
+.dropdown-content li a:hover {
+    color: #ccc; /* Change color on hover for better visibility */
+
+}

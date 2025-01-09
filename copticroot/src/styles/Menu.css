@@ -1,0 +1,104 @@
+.menu-wrapper {
+    display: flex; /* Use flexbox to align and center content within the wrapper */
+    justify-content: center; /* Center child elements horizontally */
+    align-items: center; /* Center child elements vertically */
+    
+}
+
+.menu-container {
+    display: flex; /* Use flexbox for layout of menu items */
+    flex-direction: column; /* Stack menu items vertically */
+    align-items: center; /* Center the items in the container */
+    width: 800px; /* Set a fixed width for the menu container */
+    margin: 20px auto; /* Center the container horizontally with a 20px margin on top and bottom */
+    padding-top: 0px; /* Add 20px of padding at the top */
+}
+
+.menu-item-container {
+    width: 100%; /* Set the width to 100% of the parent container */
+    margin-bottom: 10px; /* Add space below each menu item container */
+    position: relative; /* Enable positioning of child elements relative to this container */
+}
+
+.menu-title {
+    display: flex; /* Use flexbox to layout title elements */
+    justify-content: space-between; /* Space out title text and the plus sign */
+    align-items: center; /* Vertically align title text and the plus sign */
+    width: 100%; /* Set width to 100% of the parent container */
+    cursor: pointer; /* Change cursor to pointer when hovering, indicating interactivity */
+    padding: 10px 0; /* Add vertical padding of 10px */
+    position: relative; /* Keep title stationary for positioning context */
+  /* Ensure the title stays above other elements */
+}
+
+.menu-title-text {
+    text-align: left; /* Align the title text to the left */
+    font-size: 18px; /* Set font size for the title text */
+    font-family: 'Roboto', sans-serif; /* Use 'Roboto' font family for the title */
+}
+
+.plus-sign {
+    font-size: 18px; /* Set font size for the plus/minus sign */
+}
+
+.menu-line {
+    width: 100%; /* Set the line width to 100% of the parent container */
+    height: 1.5px; /* Set the height of the line */
+    background-color: black; /* Color the line black */
+    margin: 0; /* Remove any margin */
+}
+
+.menu-content-wrapper {
+    overflow: hidden; /* Hide any overflow content when collapsed */
+    transition: max-height 0.3s ease, padding 0.3s ease; /* Animate changes to max-height and padding for smooth opening/closing */
+    max-height: 0; /* Set initial maximum height to 0 (collapsed state) */
+    padding: 0; /* Remove padding when collapsed */
+    width: 100%; /* Set width to 100% of the parent container */
+    position: relative; /* Keep content positioned relative to the title */
+}
+
+.menu-content-wrapper.slide-down {
+    max-height: 350px; /* Set a maximum height when the content is expanded */
+    padding: 10px 0; /* Add vertical padding when content is open */
+    transition: max-height 0.3s ease, padding 0.3s ease; /* Smooth transition for opening */
+}
+
+.menu-content-wrapper.slide-up {
+    max-height: 0; /* Collapse the content */
+    padding: 0; /* Remove padding when collapsed */
+    transition: max-height 0.3s ease, padding 0.3s ease; /* Smooth transition for collapsing */
+}
+
+.content {
+    display: flex; /* Use flexbox for the layout of content */
+    flex-direction: column; /* Stack content items vertically */
+    background: white; /* Set a white background color for content */
+    padding: 10px; /* Add padding around the content */
+    font-family: 'Roboto', sans-serif; /* Use 'Roboto' font family for the content */
+}
+
+/* Styles for individual menu items */
+.menu-item {
+    padding: 8px 15px; /* Set padding for each menu item */
+    font-family: 'Roboto', sans-serif; /* Use 'Roboto' font family for menu items */
+    font-size: 16px; /* Set font size for menu items */
+    color: #333; /* Set text color for menu items */
+    transition: background 0.3s; /* Smooth transition for background color changes */
+}
+
+.menu-item:hover {
+    background: white; /* Change background to white when hovering over menu items */
+}
+
+.menu-item-container a {
+    display: block; /* Make the link a block-level element */
+    padding: 5px 0; /* Set vertical padding for the link */
+    color: inherit; /* Inherit text color from parent element */
+    text-decoration: none; /* Remove underline from the links */
+    background: linear-gradient(to left, #fff, #fff); /* Set a default gradient background */
+    transition: background 1.5s ease; /* Smooth transition for background color changes */
+}
+
+.menu-item-container a:hover {
+    background: linear-gradient(to left, #0066ff, #fff); /* Change background to blue gradient on hover */
+}

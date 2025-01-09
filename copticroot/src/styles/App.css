@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* Apply the font globally */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Optional: Specific classes for light and regular weights */
+.roboto-light {
+  font-weight: 300;
+}
+
+.roboto-regular {
+  font-weight: 400;
+}
+
+
+.navbar li a, 
+.dropdown-content li a {
+  font-family: 'roboto', sans-serif; /* Ensure font is applied here too */
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: rgb(255, 255, 255); /* Example text color */
+}

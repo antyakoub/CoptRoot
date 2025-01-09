@@ -1,0 +1,25 @@
+
+/* Grid.css */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 16px; /* Space between items */
+  margin: 20px; /* Space around the grid */
+  padding-top: 60px; /* Space for the navbar */
+}  
+  .grid-item {
+    text-align: center; /* Center text under images */
+  }
+  
+  .grid-item img {
+    width: 100%; /* Make the images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+  }
+  
+  h2 {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  margin-top: 20px; /* Makes the container full height */
+  }
