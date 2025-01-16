@@ -46,7 +46,7 @@ function Navbar() {
               <li><a href="https://www.agpeya.org/index.html" style={{ color: 'white' }} rel="noopener noreferrer" target="_blank">Agpeya</a></li>
               <li><a href="https://www.copticchurch.net/synaxarium" style={{ color: 'white' }} rel="noopener noreferrer" target="_blank">Synaxarium</a></li>
               <li><a href="https://ccel.org/fathers" style={{ color: 'white' }} rel="noopener noreferrer" target="_blank">Early Church Fathers</a></li>
-              <li><Link to="#" style={{ color: 'white' }}>Magazines</Link></li>
+              <li><Link to="#" style={{ color: 'white' }}>Desert Fathers</Link></li>
             </ul>
           )}
         </li>
