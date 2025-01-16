@@ -146,20 +146,3 @@ const Diocese = () => {
 export default Diocese;
 
 
-/* PREVIOUS SETUP
-
-    <a href="https://suscopts.org/" target="_blank" rel="noopener noreferrer">Diocese Website</a>
-          <a href="http://suscopticdiocese.org/stantonysanantonio/" target="_blank" rel="noopener noreferrer">St. Anthony Coptic Orthodox Church - San Antonio, TX</a>  
-          <a href="https://www.facebook.com/p/St-Athanasius-Coptic-Orthodox-Church-100064537668548/" target="_blank" rel="noopener noreferrer">St. Athanathius Coptic Orthodox Church - Chattanooga, TN FaceBook </a>  
-          <a href="https://www.stgeorgedaytonabeach.org" target="_blank" rel="noopener noreferrer">St. George Coptic Orthodox Church - Daytona, FL</a>
-          <a href="https://new.saintgeorgecopticchurch.org" target="_blank" rel="noopener noreferrer">St. George Coptic Orthodox Church - Tampa, FL</a>
-          <a href="https://saintminanashville.org/" target="_blank" rel="noopener noreferrer">St. Mena and Anba Sarabamon Coptic Orthodox Church - Nashville, TN</a>
-          <a href="https://saintmarkhouston.org/smh/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church - Houston, TX</a>
-          <a href="https://www.stmarknola.org" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church - New Orleans, LA</a> 
-          <a href="https://www.stmarkaz.com/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church - Scottsdale, AZ</a>
-          <a href="https://www.stmaryatlanta.org/" target="_blank" rel="noopener noreferrer">St. Mary Coptic Orthodox Church - Atlanta, GA</a>
-          <a href="https://www.stmarydfw.org/" target="_blank" rel="noopener noreferrer">St. Mary Coptic Orthodox Church - Colleyville, TX</a>
-          <a href="https://www.saintmaryhouston.org/" target="_blank" rel="noopener noreferrer">St. Mary & Archangel Michael Coptic Orthodox Church - Houston, TX</a>
-          <a href="#" target="_blank" rel="noopener noreferrer">title</a>
-          <a href="#" target="_blank" rel="noopener noreferrer">title</a>
-*/ 
