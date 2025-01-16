@@ -28,7 +28,7 @@
     cursor: pointer; /* Change cursor to pointer when hovering, indicating interactivity */
     padding: 10px 0; /* Add vertical padding of 10px */
     position: relative; /* Keep title stationary for positioning context */
-  /* Ensure the title stays above other elements */
+
 }
 
 .menu-title-text {
@@ -58,7 +58,8 @@
 }
 
 .menu-content-wrapper.slide-down {
-    max-height: 350px; /* Set a maximum height when the content is expanded */
+    max-height: 450px; /* Set a maximum height when the content is expanded */
+    overflow-y: auto; /* Enable vertical scrolling for content exceeding height */
     padding: 10px 0; /* Add vertical padding when content is open */
     transition: max-height 0.3s ease, padding 0.3s ease; /* Smooth transition for opening */
 }

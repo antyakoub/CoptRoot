@@ -43,9 +43,9 @@ function Navbar() {
           <Link to="#" style={linkStyle}>Literature</Link>
           {literatureOpen && (
             <ul className="dropdown-content literature-dropdown-content">
-              <li><Link to="#" style={{ color: 'white' }}>Agpeya</Link></li>
-              <li><Link to="#" style={{ color: 'white' }}>Synaxarium</Link></li>
-              <li><Link to="#" style={{ color: 'white' }}>Early Church Fathers</Link></li>
+              <li><a href="https://www.agpeya.org/index.html" style={{ color: 'white' }} rel="noopener noreferrer" target="_blank">Agpeya</a></li>
+              <li><a href="https://www.copticchurch.net/synaxarium" style={{ color: 'white' }} rel="noopener noreferrer" target="_blank">Synaxarium</a></li>
+              <li><a href="https://ccel.org/fathers" style={{ color: 'white' }} rel="noopener noreferrer" target="_blank">Early Church Fathers</a></li>
               <li><Link to="#" style={{ color: 'white' }}>Magazines</Link></li>
             </ul>
           )}
