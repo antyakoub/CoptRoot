@@ -1,19 +1,32 @@
 import React from "react";
+import PodArt from "../assets/maxresdefault.jpg"
 import "../styles/Podcasts.css"; // Import the CSS file
 
 const PodcastBox = () => {
   return (
     <div className="music-box">
       <div className="music-content">
-        <h2 className="title">Song Title</h2>
-        <p className="artist">Artist Name</p>
+      <img src={PodArt} alt="Podcast" className="music-image" />
       </div>
       <div className="music-info">
-        <p>Album: Album Name</p>
-        <p>Duration: 3:45</p>
+        <h2>Podcast Title</h2>
+        <h3>Podcast Host</h3>
       </div>
     </div>
   );
 };
 
-export default PodcastBox;
+const PodcastGrid = () => {
+  return (
+    <div className="podcast-grid">
+      <PodcastBox />
+      <PodcastBox />
+      <PodcastBox />
+      <PodcastBox />
+      <PodcastBox />
+      <PodcastBox />
+    </div>
+  );
+};
+
+export default PodcastGrid;
