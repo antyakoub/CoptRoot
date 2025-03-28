@@ -103,7 +103,7 @@ const Diocese = () => {
       )
     },
     { 
-      title: 'Diocese of Los Angeles, Southern California and Hawaii', 
+      title: 'Diocese of Los Angeles, Southern California & Hawaii', 
       content: (
         <div>
           <a href="https://www.lacopts.org/" target="_blank" rel="noopener noreferrer">Diocese Website</a>
@@ -152,6 +152,44 @@ const Diocese = () => {
           <a href="https://www.stpauloc.org/" target="_blank" rel="noopener noreferrer">St. Paul American Coptic Orthodox Church, Irvine, CA</a>
           <a href="https://stthomascoc.org/" target="_blank" rel="noopener noreferrer">St. Thomas The Hermit Coptic Orthodox Church, Temecula, CA</a>
           <a href="https://www.thecocc.org/" target="_blank" rel="noopener noreferrer">St. Verena & the Three Holy Youth Coptic Orthodox Church, Orange, CA</a>
+        </div>
+      )
+    },
+    { 
+      title: 'Archdiocese of Northern California & Western USA', 
+      content: (
+        <div>
+          <a href="https://www.copticarchwest.org/" target="_blank" rel="noopener noreferrer">Diocese Website</a>
+          <a href="http://www.antonius.org/" target="_blank" rel="noopener noreferrer">St. Antonius Coptic Orthodox Church, Hayward, CA</a>
+          <a href="https://stmarystjohn.org/" target="_blank" rel="noopener noreferrer">St. Mary & St. John Coptic Orthodox Church, Pleasanton, CA</a>
+          <a href="https://stgeorgechurch.org/" target="_blank" rel="noopener noreferrer">St. George & St. Joseph Coptic Orthodox Church, Campbell, CA</a>
+          <a href="https://www.stmaryandstmina.church/stm/" target="_blank" rel="noopener noreferrer">St. Mary & St. Mina Coptic Orthodox Church, Concord, CA</a>
+          <a href="https://stmccs.org/" target="_blank" rel="noopener noreferrer">St. Mary Coptic Orthodox Church, Roseville, CA</a>
+          <a href="https://www.stmarkripon.org/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Ripon, CA</a>
+          <a href="https://www.stmarystmarksf.com/" target="_blank" rel="noopener noreferrer">St. Mary & St. Mark Coptic Orthodox Church, San Francisco, CA</a>
+          <a href="https://stmarkmonterey.org/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Monterey, CA</a>
+          <a href="https://smpk.church/" target="_blank" rel="noopener noreferrer">Pope Kyrillos VI & St. Mary of Egypt Coptic Orthodox Church, Redwood City, CA</a>
+          <a href="https://www.spsdseattle.com/" target="_blank" rel="noopener noreferrer">St. Philopater & St. Demiana Coptic Orthodox Church, Lynnwood, WA</a>
+          <a href="https://www.stmaryseattle.org/" target="_blank" rel="noopener noreferrer">St Mary's Coptic Orthodox Church, Lynnwood, WA</a>
+          <a href="https://www.stgeorgeseattle.org/" target="_blank" rel="noopener noreferrer">St. George Coptic Orthodox Church, Kirkland, WA</a>
+          <a href="https://stmarkbonneylake.com/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Bonney Lake, WA</a>
+          <a href="https://www.smpkchurch.com/" target="_blank" rel="noopener noreferrer">St. Mina & Pope Kyrillos VI Coptic Orthodox Church, Bothell, WA</a>
+          <a href="https://archangelscoc.org/" target="_blank" rel="noopener noreferrer">The Archangels Coptic Orthodox Church, Everett, WA</a>
+          <a href="https://stantonious.org/" target="_blank" rel="noopener noreferrer">St. Antonious Coptic Orthodox Church, Portland, OR</a>
+          <a href="https://www.facebook.com/StMaryMartyrMarina/" target="_blank" rel="noopener noreferrer">St. Mary & Martyr Marina Coptic Orthodox Church, Troutdale, OR<FaFacebook/></a>
+          <a href="http://stmarycopticchurchlv.org/" target="_blank" rel="noopener noreferrer">St. Mary Coptic Orthodox Church, Las Vegas, NV</a>
+          <a href="https://www.stmarkdenver.org/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Centennial, CO</a>
+          <a href="https://www.stmarycopticslc.org/" target="_blank" rel="noopener noreferrer">St. Mary's Coptic Orthodox Church, Clearfield, UT</a>
+          <a href="https://www.orientalorthodoxy.com/parish-finder/idaho/virgin-mary-st-mark-coc/" target="_blank" rel="noopener noreferrer">Virgin Mary and St. Mark Coptic Orthodox Church, Boise, ID</a>
+        </div>
+      )
+    },
+    { 
+      title: 'Diocese of New York & New England', 
+      content: (
+        <div>
+          <a href="https://nynecopts.org/" target="_blank" rel="noopener noreferrer">Diocese Website</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>
           <a href="#" target="_blank" rel="noopener noreferrer">title</a>
           <a href="#" target="_blank" rel="noopener noreferrer">title</a>
         </div>
