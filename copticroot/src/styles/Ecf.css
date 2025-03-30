@@ -1,0 +1,24 @@
+.text-container {
+    display: flex;
+    justify-content: space-between; /* Space out the two sections */
+    padding: 20px;
+  }
+  
+  .left-side {
+    flex: 2; /* This takes up 2/3 of the space */
+  }
+  
+  .right-side {
+    flex: 1; /* This takes up 1/3 of the space */
+  }
+  
+  .left-text {
+    text-align: left;
+  }
+  
+  .right-text {
+    text-align: right;
+    width: 100%; /* Ensure the paragraph uses the full width of the right side */
+    padding-right: 20px; /* Optional padding on the right */
+  }
+  
