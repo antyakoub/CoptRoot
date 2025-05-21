@@ -5,6 +5,9 @@ import Home from './components/Home';
 import Dioceses from './components/Dioceses'
 import Icons from './components/Icons';
 import Podcasts from './components/Podcasts';
+import Ecf from './components/Ecf';
+import AgpeyaPage from './components/Agpeya'
+import DesertFathersPage from './components/DFathers'
 //import Hymns from './components/Hymns'; 
 // TODO: Import other components as needed
 
@@ -16,9 +19,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} /> 
           <Route path="/icons" element={<Icons />} /> 
-          <Route path="/podcasts" element={<Podcasts />} />        
-          {/* <Route path="/hymns" element={<Hymns />} />        */}
+          <Route path="/podcasts" element={<Podcasts />} />
+          <Route path="/podcasts" element={<Podcasts />} />  
+          <Route path="/ecf" element={<Ecf />} />        
+          <Route path="/agpeya" element={<AgpeyaPage />} />        
           <Route path="/dioceses" element={<Dioceses />} />
+          <Route path="/desertfathers" element={<DesertFathersPage />} />
           {/* <Route path="/resources" element={<Resources />} /> */}
           {/* <Route path="/contact" element={<Contact />} />     */}
         </Routes>
