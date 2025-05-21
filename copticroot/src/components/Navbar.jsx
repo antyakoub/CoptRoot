@@ -43,10 +43,10 @@ function Navbar() {
           <Link to="#" style={linkStyle}>Literature</Link>
           {literatureOpen && (
             <ul className="dropdown-content literature-dropdown-content">
-              <li><a href="https://www.agpeya.org/index.html" style={{ color: 'white' }} rel="noopener noreferrer" target="_blank">Agpeya</a></li>
+              <li><Link to="/Agpeya" style={{ color: 'white' }}>Agpeya</Link></li>
               <li><a href="https://www.copticchurch.net/synaxarium" style={{ color: 'white' }} rel="noopener noreferrer" target="_blank">Synaxarium</a></li>
               <li><Link to="/Ecf" style={{ color: 'white' }}>Early Church Fathers</Link></li>
-              <li><Link to="#" style={{ color: 'white' }}>Desert Fathers</Link></li>
+              <li><Link to="/desertfathers" style={{ color: 'white' }}>Desert Fathers</Link></li>
             </ul>
           )}
         </li>
