@@ -16,5 +16,23 @@
     "host": "Fr. Theodore Ghaly, David Guirguis",
     "thumbnail": "assets/podcastAssets/images/intoTheDeep.png",
     "link": "https://www.youtube.com/playlist?list=PLJwYigA1e9TMLyqLMi_TBHwMtRBvhHPgA"
+  },
+  {
+    "title": "Coptic Podcast",
+    "host": "Samuel Abraham",
+    "thumbnail": "assets/podcastAssets/images/copticPodcast.png",
+    "link": "https://www.youtube.com/@copticpodcast"
+  },
+  {
+    "title": "The Orthodox Spirit",
+    "host": "PLACEHOLDER",
+    "thumbnail": "assets/podcastAssets/images/orthodoxSpirit.png",
+    "link": "https://www.youtube.com/@TheOrthodoxSpirit"
+  },
+  {
+    "title": "Coptic Topic",
+    "host": "PLACEHOLDER",
+    "thumbnail": "assets/podcastAssets/images/copticTopic.png",
+    "link": "https://www.youtube.com/@Coptictopic"
   }
 ]
