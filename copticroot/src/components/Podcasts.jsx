@@ -1,7 +1,7 @@
 // PodcastGrid.jsx
 
 import React from "react";
-import podcastData from "../assets/data/podcasts";
+import podcastData from "../assets/podcasts/podcasts";
 import "../styles/Podcasts.css";
 
 const PodcastBox = ({ title, host, thumbnail, link }) => {
