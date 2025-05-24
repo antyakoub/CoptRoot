@@ -1,14 +1,20 @@
-[
+[ 
   {
-    "title": "The Tech Files",
-    "host": "Jane Doe",
-    "thumbnail": "/images/pod1.jpg",
-    "link": "https://example.com/thetechfiles"
+    "title": "Coptic Orthodox Answers",
+    "host": "Various Hosts",
+    "thumbnail": "assets/podcastAssets/images/maxresdefault.jpg",
+    "link": "https://www.youtube.com/@CopticOrthodoxAnswers"
   },
   {
-    "title": "Startup Talk",
-    "host": "Anna Lee",
-    "thumbnail": "/images/pod2.jpg",
-    "link": "https://example.com/startuptalk"
+    "title": "Keeping it Apostolic",
+    "host": "Isaiah Boktor",
+    "thumbnail": "assets/podcastAssets/images/KPNITAPSTLC.png",
+    "link": "https://www.youtube.com/@keepingitapostolic"
+  },
+  {
+    "title": "Into the Deep",
+    "host": "Fr. Theodore Ghaly, David Guirguis",
+    "thumbnail": "assets/podcastAssets/images/intoTheDeep.png",
+    "link": "https://www.youtube.com/playlist?list=PLJwYigA1e9TMLyqLMi_TBHwMtRBvhHPgA"
   }
 ]

@@ -1,19 +1,27 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Podcasts.css";
 
-const PodcastBox = ({ title, host, thumbnail, link }) => (
-  <div className="music-box">
-    <div className="music-content">
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        <img src={thumbnail} alt={title} className="music-image" />
-      </a>
+const PodcastBox = ({ title, host, thumbnail, link, smallImage }) => {
+  return (
+    <div className="music-box">
+      <div className="music-content">
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <img
+            src={thumbnail}
+            alt={title}
+            className={`music-image ${smallImage ? "small" : ""}`}
+          />
+        </a>
+      </div>
+      <div className="music-info">
+        <h2>{title}</h2>
+        {host.split(",").map((h, i) => (
+        <h3 key={i}>{h.trim()}</h3>
+        ))}
+      </div>
     </div>
-    <div className="music-info">
-      <h2>{title}</h2>
-      <h3>{host}</h3>
-    </div>
-  </div>
-);
+  );
+};
 
 const PodcastGrid = () => {
   const [podcasts, setPodcasts] = useState([]);
