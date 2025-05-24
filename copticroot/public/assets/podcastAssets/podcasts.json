@@ -1,0 +1,14 @@
+[
+  {
+    "title": "The Tech Files",
+    "host": "Jane Doe",
+    "thumbnail": "/images/pod1.jpg",
+    "link": "https://example.com/thetechfiles"
+  },
+  {
+    "title": "Startup Talk",
+    "host": "Anna Lee",
+    "thumbnail": "/images/pod2.jpg",
+    "link": "https://example.com/startuptalk"
+  }
+]
