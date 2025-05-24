@@ -3,25 +3,26 @@ import "../styles/Podcasts.css";
 
 const PodcastBox = ({ title, host, thumbnail, link, smallImage }) => {
   return (
-    <div className="music-box">
-      <div className="music-content">
-        <a href={link} target="_blank" rel="noopener noreferrer">
+    <a href={link} target="_blank" rel="noopener noreferrer" className="music-link">
+      <div className="music-box">
+        <div className="music-content">
           <img
             src={thumbnail}
             alt={title}
             className={`music-image ${smallImage ? "small" : ""}`}
           />
-        </a>
+        </div>
+        <div className="music-info">
+          <h2>{title}</h2>
+          {host.split(",").map((h, i) => (
+            <h3 key={i}>{h.trim()}</h3>
+          ))}
+        </div>
       </div>
-      <div className="music-info">
-        <h2>{title}</h2>
-        {host.split(",").map((h, i) => (
-        <h3 key={i}>{h.trim()}</h3>
-        ))}
-      </div>
-    </div>
+    </a>
   );
 };
+
 
 const PodcastGrid = () => {
   const [podcasts, setPodcasts] = useState([]);
