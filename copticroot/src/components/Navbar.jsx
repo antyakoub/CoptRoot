@@ -29,7 +29,7 @@ function Navbar() {
             <ul className="dropdown-content media-dropdown-content">
               <li><Link to="/icons" style={{ color: 'white' }}>Icons</Link></li>
               <li><Link to="#" style={{ color: 'white' }}>Hymns</Link></li>
-              <li><Link to="#" style={{ color: 'white' }}>Sermons</Link></li>
+              <li><Link to="/sermons" style={{ color: 'white' }}>Sermons</Link></li>
               <li><Link to="/podcasts" style={{ color: 'white' }}>Podcasts</Link></li>
               <li><Link to="#" style={{ color: 'white' }}>Magazines</Link></li>
             </ul>

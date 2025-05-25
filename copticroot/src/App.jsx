@@ -8,6 +8,7 @@ import Podcasts from './components/Podcasts';
 import Ecf from './components/Ecf';
 import AgpeyaPage from './components/Agpeya'
 import DesertFathersPage from './components/DFathers'
+import SermonPage from './components/Sermons';
 //import Hymns from './components/Hymns'; 
 // TODO: Import other components as needed
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/agpeya" element={<AgpeyaPage />} />        
           <Route path="/dioceses" element={<Dioceses />} />
           <Route path="/desertfathers" element={<DesertFathersPage />} />
+          <Route path="/sermons" element={<SermonPage />} />
           {/* <Route path="/resources" element={<Resources />} /> */}
           {/* <Route path="/contact" element={<Contact />} />     */}
         </Routes>
