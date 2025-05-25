@@ -1,0 +1,33 @@
+.sermon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 24px;
+    padding: 20px;
+  }
+  
+  .sermon-card {
+    display: block;
+    background: #fefefe;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s;
+  }
+  
+  .sermon-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .sermon-thumb {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .sermon-info {
+    padding: 12px;
+    text-align: center;
+  }
+  
