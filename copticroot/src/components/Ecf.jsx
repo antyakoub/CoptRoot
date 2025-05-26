@@ -74,7 +74,7 @@ const ECF = () => {
         <section className="ecf-hero">
           <div className="ecf-section-container">
             <h1 className="ecf-hero-title">
-              Discover the Early Church Fathers of Coptic Christianity
+              Discover the Early Church Fathers of Christianity
             </h1>
             <p className="ecf-hero-subtitle">
               Learn about their lives, teachings, and enduring legacy that shaped the foundation of Christian theology.
@@ -207,7 +207,7 @@ const ECF = () => {
               Continue your journey through the rich theological heritage of the Early Church Fathers and discover how their teachings shape Coptic Christianity today.
             </p>
             <div className="ecf-cta-buttons">
-              <a href="#" className="ecf-button-primary">
+              <a href="https://www.ccel.org/fathers" className="ecf-button-primary" rel="noopener noreferrer" target="_blank">
                 Explore More Resources
               </a>
               <a href="#" className="ecf-button-secondary">
@@ -223,7 +223,7 @@ const ECF = () => {
         <div className="ecf-section-container">
           <div className="ecf-footer-grid">
             <div className="ecf-footer-column">
-              <h3 className="ecf-footer-title">Coptic Heritage</h3>
+              <h3 className="ecf-footer-title">Coptic Root</h3>
               <p className="ecf-footer-text">
                 Exploring the rich theological tradition of Coptic Christianity through the writings of the Early Church Fathers.
               </p>
