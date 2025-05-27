@@ -1,0 +1,314 @@
+
+
+.synaxarium-page {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Hero Banner */
+.synaxarium-page .hero-banner {
+  background: linear-gradient(to right, #d97706, #ea580c);
+  color: white;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.synaxarium-page .hero-content {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.synaxarium-page .hero-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.synaxarium-page .hero-icon svg {
+  color: white;
+}
+
+.synaxarium-page .hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.synaxarium-page .hero-description {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.synaxarium-page .hero-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: white;
+  color: #ea580c;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.synaxarium-page .hero-button:hover {
+  background-color: #f3f4f6;
+}
+
+/* Content sections */
+.synaxarium-page .content-section {
+  padding: 3rem 0;
+}
+
+.synaxarium-page .content-section.alt-section {
+  background-color: white;
+}
+
+.synaxarium-page .container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Section headers */
+.synaxarium-page .section-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.synaxarium-page .section-header svg {
+  color: #d97706;
+}
+
+.synaxarium-page .section-header h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin: 0;
+}
+
+/* Section content */
+.synaxarium-page .section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.synaxarium-page .section-paragraph {
+  font-size: 1.125rem;
+  color: #374151;
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* Info grid (3-column layout) */
+.synaxarium-page .info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.synaxarium-page .info-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.synaxarium-page .info-card svg {
+  color: #d97706;
+  margin-bottom: 1rem;
+}
+
+.synaxarium-page .info-card h3 {
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.synaxarium-page .info-card p {
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Structure grid (2-column layout) */
+.synaxarium-page .structure-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.synaxarium-page .resource-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.synaxarium-page .card-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.synaxarium-page .card-content svg {
+  color: #d97706;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.synaxarium-page .card-text h3 {
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.synaxarium-page .card-text p {
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Liturgical box */
+.synaxarium-page .liturgical-box {
+  background-color: #fef3c7;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #fcd34d;
+  margin-top: 1rem;
+}
+
+.synaxarium-page .liturgical-box h3 {
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 0.75rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.synaxarium-page .liturgical-box h3 svg {
+  color: #d97706;
+}
+
+.synaxarium-page .liturgical-box p {
+  color: #374151;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Resources grid (3-column layout) */
+.synaxarium-page .resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.synaxarium-page .resource-link {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s ease;
+  display: block;
+}
+
+.synaxarium-page .resource-link:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.synaxarium-page .resource-link svg:first-child {
+  color: #d97706;
+  margin-bottom: 1rem;
+}
+
+.synaxarium-page .resource-link h3 {
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.synaxarium-page .resource-link h3 svg:last-child {
+  color: #6b7280;
+}
+
+.synaxarium-page .resource-link p {
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .synaxarium-page .hero-title {
+    font-size: 2rem;
+  }
+  
+  .synaxarium-page .hero-description {
+    font-size: 1.125rem;
+  }
+  
+  .synaxarium-page .section-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .synaxarium-page .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .synaxarium-page .info-grid,
+  .synaxarium-page .structure-grid,
+  .synaxarium-page .resources-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .synaxarium-page .card-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .synaxarium-page .container {
+    padding: 0 1rem;
+  }
+  
+  .synaxarium-page .hero-banner {
+    padding: 2rem 1rem;
+  }
+  
+  .synaxarium-page .content-section {
+    padding: 2rem 0;
+  }
+  
+  .synaxarium-page .hero-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
