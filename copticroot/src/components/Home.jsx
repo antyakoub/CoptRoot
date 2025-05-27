@@ -16,9 +16,8 @@ const Home = () => {
         />
       </div>
       {/* Content section */}
-      {/* Add a image that is 1920 * any height preforablly small like a band or crest */}
+      <img className="frieze-image" src="/assets/copticFrieze.jpg" alt="frieze" />
       <div className="content">
-        <img src="../assets/copticFrieze.jpg" alt="frieze" />
         <section className="content-section">
           <h2>Content</h2>
           <p>This is where the content starts after the video section.</p>
