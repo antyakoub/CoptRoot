@@ -44,7 +44,7 @@ function Navbar() {
           {literatureOpen && (
             <ul className="dropdown-content literature-dropdown-content">
               <li><Link to="/Agpeya" style={{ color: 'white' }}>Agpeya</Link></li>
-              <li><a href="https://www.copticchurch.net/synaxarium" style={{ color: 'white' }} rel="noopener noreferrer" target="_blank">Synaxarium</a></li>
+              <li><Link to="/Synaxarium" style={{ color: 'white' }}>Synaxarium</Link></li>
               <li><Link to="/Ecf" style={{ color: 'white' }}>Early Church Fathers</Link></li>
               <li><Link to="/desertfathers" style={{ color: 'white' }}>Desert Fathers</Link></li>
             </ul>
