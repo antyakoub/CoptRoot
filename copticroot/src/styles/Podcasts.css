@@ -1,3 +1,15 @@
+.podcast-header {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.podcast-page {
+  padding: 0 2rem;
+}
+
 .podcast-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */

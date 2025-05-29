@@ -35,18 +35,22 @@ const PodcastGrid = () => {
   }, []);
 
   return (
-    <div className="podcast-grid">
-      {podcasts.map((pod, index) => (
-        <PodcastBox
-          key={index}
-          title={pod.title}
-          host={pod.host}
-          thumbnail={pod.thumbnail}
-          link={pod.link}
-        />
-      ))}
+    <div className="podcast-page">
+      <h1 className="podcast-header">Coptic Podcasts</h1> 
+      <div className="podcast-grid">
+        {podcasts.map((pod, index) => (
+          <PodcastBox
+            key={index}
+            title={pod.title}
+            host={pod.host}
+            thumbnail={pod.thumbnail}
+            link={pod.link}
+          />
+        ))}
+      </div>
     </div>
   );
 };
+
 
 export default PodcastGrid;
