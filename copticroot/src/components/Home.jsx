@@ -19,8 +19,8 @@ const Home = () => {
       <img className="frieze-image" src="/assets/copticFrieze.jpg" alt="frieze" />
       <div className="content">
         <section className="content-section">
-          <h2>Content</h2>
-          <p>This is where the content starts after the video section.</p>
+          <h2>Why Coptic Root?</h2>
+          <p>In my experience many Coptic resources are fragmented and difficult to find, so a single platform would increase accessibility and community engagement.</p>
         </section>
 
         <section className="content-section">
