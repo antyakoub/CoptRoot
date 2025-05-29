@@ -1,5 +1,8 @@
 <!-- Dev note: Remember to update link to website -->
-[![CopticRoot Link](https://github.com/antyakoub/CoptRoot)](./assets/Hero.svg)
+<a href="https://github.com/antyakoub/CoptRoot" target="_blank">
+  <img src="./assets/Hero.svg" alt="Visit Site">
+</a>
+
 
 ## What this project is
 Coptic Root is a centralized platform designed to collect and organize online Coptic Orthodox resources. It aims to make key texts, media, and institutional content easily accessible to both Coptic Christians and interested scholars. The project serves as a digital hub for literature, media, diocese directories, magazines, and other relevant resources.
@@ -64,8 +67,8 @@ Design Mockups (Figma/Canva) -->
 
 ## Who to contact
 
-For inquiries, collaborations, or contributions, contact:
-Antonious Yakoub
-Email: [antyakoub@gmail.com]
-GitHub: [https://github.com/antyakoub]
-LinkedIn: [https://www.linkedin.com/in/antyakoub/]
+For inquiries, collaborations, or contributions, contact:<br>
+Antonious Yakoub<br>
+Email: [antyakoub@gmail.com]<br>
+GitHub: [https://github.com/antyakoub]<br>
+LinkedIn: [https://www.linkedin.com/in/antyakoub/]<br>
