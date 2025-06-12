@@ -107,32 +107,7 @@ const ECF = () => {
                   <div className="ecf-father-bio">
                     <p>{father.bio}</p>
                   </div>
-                  
-                  <button
-                    onClick={() => toggleFather(father.id)}
-                    className="ecf-read-more-button"
-                  >
-                    {expandedFather === father.id ? "Read Less" : "Read More"}
-                    <svg 
-                      className={`ecf-icon ${expandedFather === father.id ? 'ecf-icon-rotate' : ''}`} 
-                      width="16" 
-                      height="16" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      viewBox="0 0 24 24" 
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
-                  
-                  {expandedFather === father.id && (
-                    <div className="ecf-expanded-content">
-                      <p>
-                        Additional information about {father.name}'s life, works, and theological contributions would appear here, providing deeper context for readers interested in learning more.
-                      </p>
-                    </div>
-                  )}
+
                 </div>
               ))}
             </div>
