@@ -224,15 +224,96 @@ const Diocese = () => {
       )
     },
     { 
-      title: 'Midwest Region', 
+      title: 'Diocese of North Carolina, South Carolina, & Kentucky', 
       content: (
         <div>
-          <a href="/midwest-overview" target="_blank" rel="noopener noreferrer">Overview</a>  
-          <a href="/midwest-events" target="_blank" rel="noopener noreferrer">Events</a>  
-          <a href="/midwest-contact" target="_blank" rel="noopener noreferrer">Contact</a>
+          <a href="https://www.facebook.com/CarolinaDiocese/" target="_blank" rel="noopener noreferrer">Diocese Website<FaFacebook/></a>
+          <a href="https://wsnccoptic.com/" target="_blank" rel="noopener noreferrer">Archangel Michael & St. Philopateer Coptic Orthodox Church, Winston-Salem, NC</a>
+          <a href="https://www.chapelhillcoptic.com/" target="_blank" rel="noopener noreferrer">Archangel Raphael & St. John the Beloved Coptic Orthodox Church, Chapel Hill, NC</a>
+          <a href="https://stmarkcharlotte.org/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Charlotte, NC</a>
+          <a href="https://www.stmarync.com/" target="_blank" rel="noopener noreferrer">St. Mary Coptic Orthodox Church, Raleigh, NC</a>
+          <a href="https://www.stpaulorthodoxnc.org/" target="_blank" rel="noopener noreferrer">St. Paul American Coptic Orthodox Church, Cary, NC</a>
+          <a href="https://www.facebook.com/people/St-Pishoy-and-Pope-Kyrillos-VI-Coptic-Orthodox-Church/61551202828007/" target="_blank" rel="noopener noreferrer">St. Pishoy & Pope Kerillos Coptic Orthodox Church, Reidsville, NC<FaFacebook/></a>
+          <a href="https://www.facebook.com/ArchangelMichaelSC/" target="_blank" rel="noopener noreferrer">Archangel Michael Coptic Orthodox Church, Greenville, SC</a>
+          <a href="https://www.copticmyrtle.com/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Myrtle Beach, SC</a>
+          <a href="https://www.stmarysc.org/" target="_blank" rel="noopener noreferrer">St. Mary Coptic Orthodox Church, Mauldin, SC</a>
+          <a href="https://www.charlestoncoptic.org/" target="_blank" rel="noopener noreferrer">St. Mary & St. George Coptic Orthodox Church, Charleston, SC</a>
+          <a href="https://www.stmarystminausa.com/" target="_blank" rel="noopener noreferrer">St. Mary & St. Mina Coptic Orthodox Church, Fort Mill, SC</a>
+          <a href="https://www.stmarystphilopateer.org/" target="_blank" rel="noopener noreferrer">Holy Virgin Mary & St. Philopateer Coptic Orthodox Church, Lexington, KY</a>
+          <a href="http://www.stmarkky.org/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Louisville, KY</a>
+          
         </div>
       )
     },
+    { 
+      title: 'Diocese of Pennsylvania, Maryland, Delaware & West Virginia', 
+      content: (
+        <div>
+          <a href="https://copticpa.org/" target="_blank" rel="noopener noreferrer">Diocese Website</a>
+          <a href="http://www.stanthonycocpa.org/" target="_blank" rel="noopener noreferrer">St. Anthony Coptic Orthodox Church, Annville, PA</a>
+          <a href="https://www.stgeorgephilly.org/" target="_blank" rel="noopener noreferrer">St. George Coptic Orthodox Church, Norristown, PA</a>
+          <a href="https://www.stmarkhbg.com/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Harrisburg, PA</a>
+          <a href="https://www.stmarypgh.org/"target="_blank" rel="noopener noreferrer">St. Mary Coptic Orthodox Church, Ambridge, PA</a>
+          <a href="https://www.stmarystbishoy-allentown.com/" target="_blank" rel="noopener noreferrer">St. Mary & St. Bishoy Coptic Orthodox Church, Allentown, PA</a>
+          <a href="https://copticpa.org/st-mary-st-joseph-levittown-pa/" target="_blank" rel="noopener noreferrer">St. Mary & St. Joseph Coptic Orthodox Church, Levvittown, PA</a>
+          <a href="https://www.stmarystkyrillos.org/" target="_blank" rel="noopener noreferrer">St. Mary & St Kyrillos Coptic Orthodox Church, Hatfield, PA</a>
+          <a href="https://www.stmarystmercuriusphilly.org/home" target="_blank" rel="noopener noreferrer">St. Mary & St. Mercurios Coptic Orthodox Church, Devon, PA</a>
+          <a href="https://orthodox-world.org/en/i/23469/united-states/pennsylvania/mt-pocono/church/virgin-mary-and-saint-marina-coptic-orthodox-church" target="_blank" rel="noopener noreferrer">Virgin Mary & St. Marina Coptic Orthodox Church, Mount Pocono, PA</a>
+          <a href="https://www.facebook.com/StMinaandPopeKyrillos/" target="_blank" rel="noopener noreferrer">St. Mina & Pope Kyrillos Coptic Orthodox Church, Carlisle, PA<FaFacebook/></a>
+          <a href="https://sbsschurch.org/" target="_blank" rel="noopener noreferrer">St. Barnabas & St. Susanna Coptic Orthodox Church, Baltimore, MD</a>
+          <a href="https://saintmarycoptic.org/" target="_blank" rel="noopener noreferrer">St. Mary Coptic Orthodox Church, Cooksville, MD</a>
+          <a href="https://www.stmaryde.org/" target="_blank" rel="noopener noreferrer">Saint Mary Coptic Orthodox Church Of Delaware, Newark, DE</a>
+          <a href="https://www.facebook.com/smagcc/" target="_blank" rel="noopener noreferrer">St. Mary & Archangel Gabriel Coptic Orthodox Church, Charleston, WV</a>
+          
+        </div>
+      )
+    },
+    { 
+      title: 'Diocese of Ohio, Michigan & Indiana', 
+      content: (
+        <div>
+          <a href="https://www.omicopts.org/" target="_blank" rel="noopener noreferrer">Diocese Website</a>
+          <a href="https://stgeorgetoledo.net/" target="_blank" rel="noopener noreferrer">St. George Coptic Orthodox Church, Toledo, OH</a>
+          <a href="https://stmarkclev.org/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Seven Hills, OH</a>
+          <a href="https://www.stmarycoc.org/" target="_blank" rel="noopener noreferrer">St. Mary Coptic Orthodox Church, Columbus, OH</a>
+          <a href="https://www.stmarystjohnmonastery.org" target="_blank" rel="noopener noreferrer">St. Mary & St. John Monastery, Warren</a>
+          <a href="https://www.stminastabanoub.org/" target="_blank" rel="noopener noreferrer">St. Mina & St. Abanoub Coptic Orthodox Church, Miamisburg, OH</a>
+          <a href="https://spsg.church/" target="_blank" rel="noopener noreferrer">St. Peter & St. George Coptic Orthodox Church, Westlake, OH</a>
+          <a href="https://www.stmarkmi.org/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Troy, MI</a>
+          <a href="https://egyptcopts.com/index.php" target="_blank" rel="noopener noreferrer">St. Mary & St. Philopateer Coptic Orthodox Church, Troy, MI</a>
+          <a href="https://www.stmina-popekyrillos.com/" target="_blank" rel="noopener noreferrer">St. Mina & Pope Kyrillos VI Coptic Orthodox Church, Shelby Township, MI</a>
+          <a href="https://www.smpkfraser.org/" target="_blank" rel="noopener noreferrer">St. Mary & Pope Kyrillos VI Coptic Orthodox Church, Fraser, MI</a>
+          <a href="https://www.holycrosscoptic.org/" target="_blank" rel="noopener noreferrer">Holy Cross Coptic Orthodox Church, Farmington Hills, MI</a>
+          <a href="https://www.stminaretreatcenter.org/" target="_blank" rel="noopener noreferrer">St. Mina Coptic Orthodox Church, Mio, MI</a>
+          <a href="https://www.stmaryannarbor.church/" target="_blank" rel="noopener noreferrer">St. Mary Coptic Orthodox Church, Ann Arbor, MI</a>
+          <a href="https://westmichigancopts.org/" target="_blank" rel="noopener noreferrer">St. Mary & St. Mina Coptic Orthodox Church, Grand Rapids, MI</a>
+          <a href="https://www.stmarystmark.com/" target="_blank" rel="noopener noreferrer">St. Mary & St. Mark Coptic Orthodox Church, Indianapolis, IN</a>
+          
+        </div>
+      )
+    },
+    { 
+      title: 'Archdiocese of North America', 
+      content: (
+        <div>
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          <a href="#" target="_blank" rel="noopener noreferrer">title</a>  
+          
+        </div>
+      )
+    },
+
     // Add more regions as needed
   ];
 
