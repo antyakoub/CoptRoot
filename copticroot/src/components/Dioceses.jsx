@@ -140,7 +140,7 @@ const Diocese = () => {
           <a href="https://www.stgeorgestbishoy.org/" target="_blank" rel="noopener noreferrer">St. George & St. Bishoy Coptic Orthodox Church, Visalia, CA</a>
           <a href="https://www.stjohnthebaptistoxnard.com/" target="_blank" rel="noopener noreferrer">St. John the Baptist Coptic Orthodox Church, Oxnard, CA</a>
           <a href="https://www.santamariacoc.org/" target="_blank" rel="noopener noreferrer">St. Macarius The Great Coptic Orthodox Church, Santa Maria, CA</a>
-          <a href="https://www.sta.church/" target="_blank" rel="noopener noreferrer">St. Mary and St. Athanasius Coptic Orthodox Church, Los Angeles, CA</a>
+          <a href="https://www.sta.church/" target="_blank" rel="noopener noreferrer">St. Mary & St. Athanasius Coptic Orthodox Church, Los Angeles, CA</a>
           <a href="https://saintmaryofegypt.com/" target="_blank" rel="noopener noreferrer">St. Mary of Egypt Coptic Orthodox Church, Santa Clarita, CA</a>
           <a href="https://archangelmichaeloc.org/" target="_blank" rel="noopener noreferrer">Archangel Michael Coptic Orthodox Church, Santa Ana, CA</a>
           <a href="https://www.facebook.com/Holycrosscocca/" target="_blank" rel="noopener noreferrer">Holy Cross Coptic Orthodox Church, San Diego, CA<FaFacebook/></a>
@@ -180,7 +180,7 @@ const Diocese = () => {
           <a href="http://stmarycopticchurchlv.org/" target="_blank" rel="noopener noreferrer">St. Mary Coptic Orthodox Church, Las Vegas, NV</a>
           <a href="https://www.stmarkdenver.org/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Centennial, CO</a>
           <a href="https://www.stmarycopticslc.org/" target="_blank" rel="noopener noreferrer">St. Mary's Coptic Orthodox Church, Clearfield, UT</a>
-          <a href="https://www.orientalorthodoxy.com/parish-finder/idaho/virgin-mary-st-mark-coc/" target="_blank" rel="noopener noreferrer">Virgin Mary and St. Mark Coptic Orthodox Church, Boise, ID</a>
+          <a href="https://www.orientalorthodoxy.com/parish-finder/idaho/virgin-mary-st-mark-coc/" target="_blank" rel="noopener noreferrer">Virgin Mary & St. Mark Coptic Orthodox Church, Boise, ID</a>
         </div>
       )
     },
@@ -188,10 +188,38 @@ const Diocese = () => {
       title: 'Diocese of New York & New England', 
       content: (
         <div>
-          <a href="https://nynecopts.org/" target="_blank" rel="noopener noreferrer">Diocese Website</a>  
+          <a href="https://nynecopts.org/" target="_blank" rel="noopener noreferrer">Diocese Website</a>
+          <a href="https://copticchurch.org/" target="_blank" rel="noopener noreferrer">St. Mary & St. Antonios Coptic Orthodox Church, Ridgewood, NY</a>
+          <a href="https://www.stgeorgeastoria.church/" target="_blank" rel="noopener noreferrer">St. George Coptic Orthodox Church, Astoria, NY</a>
+          <a href="https://www.stgeorgeastoria.church/" target="_blank" rel="noopener noreferrer">St. Abraam Coptic Orthodox Church, Woodbury, NY</a>
+          <a href="https://stgeorgebklyn.org/" target="_blank" rel="noopener noreferrer">St. George Coptic Orthodox Church, Brooklyn, NY</a>
+          <a href="https://www.stmarystmarkmanhattan.com/" target="_blank" rel="noopener noreferrer">St. Mary & St. Mark Coptic Orthodox Church, Manhattan, NY</a>
+          <a href="https://www.facebook.com/p/St-Mary-The-Holy-Apostles-Church-in-Bronx-100064902455641/" target="_blank" rel="noopener noreferrer">St Mary & The Holy Apostles Church, Bronx, NY<FaFacebook/></a>
+          <a href="https://amsm.org/" target="_blank" rel="noopener noreferrer">Archangel Michael & St. Mena Coptic Orthodox Church, Staten Island, NY</a>
+          <a href="https://www.vm-sg.com/" target="_blank" rel="noopener noreferrer">Virgin Mary & St. George Coptic Orthodox Church, Staten island, NY</a>  
+          <a href="https://www.stmarksofrochester.com/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, West Henrietta, NY</a> 
+          <a href="https://virginmaryandsaintdemiana.org/" target="_blank" rel="noopener noreferrer">Virgin Mary & St. Demiana Coptic Orthodox Church, White Plains, NY</a> 
+          <a href="http://www.stmarystgeorge.org/default.asp?sec_id=140005360" target="_blank" rel="noopener noreferrer">St. Mary & George Coptic Orthodox Church, Albany, NY</a> 
+          <a href="https://stmarystminacopticchurch.org/" target="_blank" rel="noopener noreferrer">St. Mary & St. Mina Coptic Orthodox Church, Syracuse, NY</a> 
+          <a href="https://www.stmarystmoses.com/" target="_blank" rel="noopener noreferrer">St. Mary & St. Moses the Black Coptic Orthodox Church, North Tonawanda, NY</a> 
+          <a href="https://www.vmspchurch.org/" target="_blank" rel="noopener noreferrer">Virgin Mary & St. Pachomius Coptic Orthodox Church, Stony Point, NY</a>
+          <a href="https://www.facebook.com/smpkchurch/" target="_blank" rel="noopener noreferrer">St. Mina & Pope Kyrillos VI Cathedral, Suffern, NY<FaFacebook/></a>
+          <a href="https://www.smsd-ma-church.org/" target="_blank" rel="noopener noreferrer">St. Mary & St. Demiana Coptic Orthodox Church, Fall River, MA</a>
+          <a href="https://www.facebook.com/groups/1289729301077566/" target="_blank" rel="noopener noreferrer">Holy Virgin Mary Spiritual Vineyard, Charlton, MA<FaFacebook/></a>
+          <a href="https://www.stmarkboston.org/" target="_blank" rel="noopener noreferrer">St. Mark Coptic Orthodox Church, Natick, MA</a>
+          <a href="https://saintmaryandsaintgeorge.org/" target="_blank" rel="noopener noreferrer">St. Mary & St. George Coptic Orthodox Church, Scituate, MA</a>
+          <a href="https://ssskchurch.com/" target="_blank" rel="noopener noreferrer">St. Shenouda & St. Karas Coptic Orthodox Church, Uxbridge, MA</a>
+          <a href="https://spsjboston.org/" target="_blank" rel="noopener noreferrer">St. Paul & St. John Chrysostom Coptic Orthodox Church, Boston</a>
+          <a href="https://www.spsmwayland.org/" target="_blank" rel="noopener noreferrer">St. Philopateer & St. Mina Coptic Orthodox Church, Wayland, MA</a>
+          <a href="https://holyfamilycopts.org/" target="_blank" rel="noopener noreferrer">The Holy Family Coptic Orthodox Church, Attleboro, MA</a>
+          <a href="https://www.facebook.com/p/Saint-Mary-and-saint-Thomas-Coptic-Orthodox-100069645343243/" target="_blank" rel="noopener noreferrer">St. Mary & St. Tomas Coptic Orthodox Church, Gardner, MA<FaFacebook/></a>
+          <a href="https://directory.nihov.org/church/590" target="_blank" rel="noopener noreferrer">St. Pishoy & St. Karas Coptic Orthodox Church, Brewer, ME</a>
+          <a href="https://stmarycoptsnh.org/" target="_blank" rel="noopener noreferrer">St. Mary & Archangel Michael Coptic Orthodox Church, Nashua, NH</a>
+          <a href="https://tari.myresourcedirectory.com/index.php/component/cpx/?task=resource.view&id=4390680" target="_blank" rel="noopener noreferrer">St. Mary & St. Mena Coptic Orthodox Church, Hope, RI</a>
+          <a href="https://www.hisvine.com/church/85/St-Mary-St-Mena-Church" target="_blank" rel="noopener noreferrer">St. Mary & St. Mena Coptic Orthodox Church, Cranston, RI</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">St. Mary & Archangel Raphael Coptic Orthodox Church, Burlington, VT</a>
           <a href="#" target="_blank" rel="noopener noreferrer">title</a>
-          <a href="#" target="_blank" rel="noopener noreferrer">title</a>
-          <a href="#" target="_blank" rel="noopener noreferrer">title</a>
+
         </div>
       )
     },
