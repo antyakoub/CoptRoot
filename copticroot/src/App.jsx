@@ -7,7 +7,7 @@ import Icons from './components/Icons';
 import Podcasts from './components/Podcasts';
 import Ecf from './components/Ecf';
 import AgpeyaPage from './components/Agpeya'
-import DesertFathersPage from './components/DFathers'
+// import DesertFathersPage from './components/DFathers'
 import SermonPage from './components/Sermons';
 import SynaxariumPage from './components/SynaxariumPage';
 //import Hymns from './components/Hymns'; 
@@ -26,7 +26,7 @@ function App() {
           <Route path="/ecf" element={<Ecf />} />        
           <Route path="/agpeya" element={<AgpeyaPage />} />        
           <Route path="/dioceses" element={<Dioceses />} />
-          <Route path="/desertfathers" element={<DesertFathersPage />} />
+          {/* <Route path="/desertfathers" element={<DesertFathersPage />} /> */}
           <Route path="/sermons" element={<SermonPage />} />
           <Route path="/Synaxarium" element={<SynaxariumPage />} />
           {/* <Route path="/resources" element={<Resources />} /> */}
