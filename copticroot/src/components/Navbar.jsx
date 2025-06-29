@@ -52,7 +52,7 @@ function Navbar() {
         </li>
         <li><Link to="/dioceses" style={linkStyle}>Dioceses</Link></li>
         <li><Link to="#" style={linkStyle}>Resources</Link></li>
-        <li><Link to="#" style={linkStyle}>Contact</Link></li>
+        <li><Link to="/contact" style={linkStyle}>Contact</Link></li>
       </ul>
     </nav>
   );
