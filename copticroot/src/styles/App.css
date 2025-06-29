@@ -1,9 +1,19 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); */
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/Aeonik-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 
 /* Apply the font globally */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Aeonik', sans-serif;
+  font-weight: bold;
 }
 
 /* Optional: Specific classes for light and regular weights */
@@ -18,7 +28,7 @@ body {
 
 .navbar li a, 
 .dropdown-content li a {
-  font-family: 'roboto', sans-serif; /* Ensure font is applied here too */
+  font-family: 'Aeonik', sans-serif; /* Ensure font is applied here too */
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
