@@ -10,6 +10,7 @@ import AgpeyaPage from './components/Agpeya'
 // import DesertFathersPage from './components/DFathers'
 import SermonPage from './components/Sermons';
 import SynaxariumPage from './components/SynaxariumPage';
+import Contact from './components/Contact';
 //import Hymns from './components/Hymns'; 
 // TODO: Import other components as needed
 
@@ -30,7 +31,7 @@ function App() {
           <Route path="/sermons" element={<SermonPage />} />
           <Route path="/Synaxarium" element={<SynaxariumPage />} />
           {/* <Route path="/resources" element={<Resources />} /> */}
-          {/* <Route path="/contact" element={<Contact />} />     */}
+          <Route path="/contact" element={<Contact />} />     
         </Routes>
       </div>
     </Router>
