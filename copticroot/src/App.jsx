@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import Routes instead of Switch
 import Navbar from './components/Navbar';
+import PageLayout from './components/PageLayout';
 import Home from './components/Home';
 import Dioceses from './components/Dioceses'
 import Icons from './components/Icons';
@@ -21,17 +22,20 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} /> 
-          <Route path="/icons" element={<Icons />} /> 
-          <Route path="/podcasts" element={<Podcasts />} />
-          <Route path="/podcasts" element={<Podcasts />} />  
-          <Route path="/ecf" element={<Ecf />} />        
-          <Route path="/agpeya" element={<AgpeyaPage />} />        
-          <Route path="/dioceses" element={<Dioceses />} />
-          {/* <Route path="/desertfathers" element={<DesertFathersPage />} /> */}
-          <Route path="/sermons" element={<SermonPage />} />
-          <Route path="/Synaxarium" element={<SynaxariumPage />} />
-          {/* <Route path="/resources" element={<Resources />} /> */}
-          <Route path="/contact" element={<Contact />} />     
+
+          {/* Layout for subpages */}
+          <Route element={<PageLayout />}>
+            <Route path="/icons" element={<Icons />} /> 
+            <Route path="/podcasts" element={<Podcasts />} />
+            <Route path="/ecf" element={<Ecf />} />        
+            <Route path="/agpeya" element={<AgpeyaPage />} />        
+            <Route path="/dioceses" element={<Dioceses />} />
+            {/* <Route path="/desertfathers" element={<DesertFathersPage />} /> */}
+            <Route path="/sermons" element={<SermonPage />} />
+            <Route path="/Synaxarium" element={<SynaxariumPage />} />
+            {/* <Route path="/resources" element={<Resources />} /> */}
+            <Route path="/contact" element={<Contact />} />     
+          </Route>
         </Routes>
       </div>
     </Router>

@@ -38,7 +38,7 @@ ul {
 }
 
 .ecf-main {
-  margin-top: 60px;
+  margin-top: 0;
   flex-grow: 1;
 }
 
@@ -75,7 +75,7 @@ ul {
 /* Hero Section */
 .ecf-hero {
   background: linear-gradient(to right, #EDF2F7, #FFFFFF);
-  padding: 4rem 1rem;
+  padding: calc(4rem + 120px) 1rem 4rem 1rem;
   text-align: center;
 }
 

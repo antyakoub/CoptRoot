@@ -92,7 +92,7 @@
   .agepya-container .hero-banner {
     background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
     color: white;
-    padding: var(--spacing-16) 0;
+    padding: calc(var(--spacing-16) + 120px) 0 var(--spacing-16) 0;
   }
 
   .agepya-container .hero-banner a {

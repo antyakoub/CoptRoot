@@ -14,23 +14,18 @@ const Home = () => {
           muted
           playsInline
         />
+        <div className="hero-overlay">
+          <h1 className="hero-title">Welcome to CoptRoot</h1>
+          <p className="hero-subtitle">The Centralized Hub for Coptic Orthodox Resources</p>
+        </div>
       </div>
+      
       {/* Content section */}
       <img className="frieze-image" src="/assets/copticFrieze.jpg" alt="frieze" />
       <div className="content">
         <section className="content-section">
           <h2>Why Coptic Root?</h2>
           <p>In my experience many Coptic resources are fragmented and difficult to find, so a single platform would increase accessibility and community engagement.</p>
-        </section>
-
-        <section className="content-section">
-          <h2>More Content</h2>
-          <p>This section allows for more details or additional components like a menu.</p>
-        </section>
-
-        <section className="content-section">
-          <h2>Final Content</h2>
-          <p>Even more content that keeps the page scrolling.</p>
         </section>
       </div>
     </div>

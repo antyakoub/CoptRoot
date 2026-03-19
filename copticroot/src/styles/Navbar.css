@@ -1,103 +1,115 @@
-/* Add styles for the logo */
-.navbar-logo {
-    height: 80px; /* Adjust this value as needed for the logo size */
-    margin-right: 20px; /* Space between the logo and the navbar items */
-    vertical-align: middle; /* Align logo with text */
-    transform: translateY(-16px);
-}
-
-.navbar {
-    display: flex;
+.navbar-container {
+    position: fixed;
+    top: 20px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.navbar-container > * {
+    pointer-events: auto;
+}
+
+.glass-panel {
+    max-width: 72rem;
+    /* Use the padding from NAVBAR.MD but maybe top/bottom a bit less if 40 is too much. 
+       Actually user asked for the css from NAVBAR.MD, I will use it. */
+    padding: 20px 40px; /* Compromise for navbar feel while keeping the 40px horizontal */
+    
+    border-radius: 126px;
+    overflow: visible;
+
     color: white;
-    padding: 20px 20px;
-    text-align: center;
-    position: relative; /* Fixed position for navbar */
-    top: 0;
-    z-index: 1; /* Navbar stays above the video */
-    background-color: transparent; /* No background color */
-    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(3px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center everything together */
+    gap: 40px; /* Space between logo and links */
 }
 
-.navbar-black-text a {
-    color: black;
+.navbar-logo {
+    height: 50px;
+    vertical-align: middle;
 }
 
-.navbar ul {
-    list-style-type: none; /* Remove bullets from main navbar */
+.navbar-links {
+    list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Display the navbar items in a row */
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-.navbar li {
-    position: relative; /* Important for dropdown positioning */
+.navbar-links li {
+    position: relative;
 }
 
-.navbar li a {
+.navbar-links li a {
     display: block;
-    padding: 14px 10px;
-    color: rgb(255, 255, 255); /* Text color for navbar items */
+    padding: 10px 15px;
+    color: white;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif; /* Font family for navbar items */
-    font-weight: 350; /* Font weight for navbar items (Light) */
-    font-size: 20px; /* Font size for navbar items */
-    line-height: 19px; /* Line height for navbar items */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 1;
+    transition: all 0.3s ease;
 }
 
-.navbar li a:hover {
-    font-weight: 1000; /* Increase font weight for bold effect on hover */
-    font-size: 22px;
-    color: rgb(255, 255, 255); /* Keep the text color white */
-    transition: font-weight 0.3s ease; /* Smooth transition for font weight */
+.navbar-links li a:hover {
+    font-weight: 700;
+    transform: translateY(-2px);
 }
 
 /* Dropdown styles */
 .dropdown-content {
     visibility: hidden;
-    opacity: 0; /* Set opacity to 0 for smooth fade-in */
-    display: none; /* Initially hide dropdown */
-    position: absolute; /* Position it relative to the parent */
-    background-color: black; /* Match the navbar background for consistency */
-    min-width: 230px; /* Minimum width of dropdown */
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Shadow effect */
-    z-index: 1; /* Ensure dropdown is above other content */
-    left: 0; /* Align dropdown to the left of the parent */
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    min-width: 220px;
+    border-radius: 25px;
+    margin-top: 15px;
+    padding: 15px 0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
 }
 
-/* Remove bullet points from dropdown items */
-.dropdown-content li {
-    list-style-type: none; /* Remove bullets from dropdown items */
+/* Invisible bridge to prevent hover loss when crossing the 15px gap */
+.dropdown-content::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background: transparent;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block; /* Show dropdown on hover */
-    visibility: visible; /* Make dropdown visible on hover */
-    opacity: 1; /* Fade-in effect */
-    transition-delay: 0s; /* No delay when showing */
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
 }
 
-/* Style for dropdown items */
 .dropdown-content li a {
-    color: rgb(255, 255, 255); /* Default text color for dropdown items */
-    padding: 8px 15px; /* Padding for dropdown items */
-    text-decoration: none; /* Remove underline */
-    display: block; /* Make the link occupy the entire area */
+    padding: 12px 25px;
+    font-size: 16px;
     text-align: left;
-    font-family: 'Roboto', sans-serif; /* Font family for dropdown items */
-    font-weight: 300; /* Font weight for dropdown items (Light) */
-    font-size: 20px; /* Font size for dropdown items */
-    line-height: 19px; /* Line height for dropdown items */
 }
 
-/* Specific styles for dropdown items on the Dioceses page */
-.literature-dropdown-content li a,
-.media-dropdown-content li a {
-    color: white; /* Set dropdown text to white for Dioceses page */
-}
-
-/* Optional: Adjust hover color for dropdown items */
 .dropdown-content li a:hover {
-    color: #ccc; /* Change color on hover for better visibility */
-
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: none;
 }

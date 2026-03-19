@@ -1,0 +1,23 @@
+.page-layout-container {
+    min-height: 100vh;
+}
+
+/* 
+   By default, push content down to clear the fixed navbar.
+   Using !important ensures this isn't accidentally overridden by 
+   individual page container shorthands (e.g., padding: 0 20px;).
+*/
+.page-layout-container > * {
+    padding-top: 120px !important;
+}
+
+/* 
+   For pages where we want the hero background to extend behind the navbar,
+   we remove the top padding from the container and let the component's 
+   hero banner handle the spacing.
+*/
+.page-layout-container > .agepya-container,
+.page-layout-container > .synaxarium-page,
+.page-layout-container > .ecf-container {
+    padding-top: 0 !important;
+}

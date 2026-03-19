@@ -10,7 +10,7 @@
 .synaxarium-page .hero-banner {
   background: linear-gradient(to right, #d97706, #ea580c);
   color: white;
-  padding: 4rem 1.5rem;
+  padding: calc(4rem + 120px) 1.5rem 4rem 1.5rem;
   text-align: center;
 }
 
