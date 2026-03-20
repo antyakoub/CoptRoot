@@ -15,7 +15,7 @@ const Home = () => {
           playsInline
         />
         <div className="hero-overlay">
-          <h1 className="hero-title">Welcome to CoptRoot</h1>
+          <h1 className="hero-title">Welcome to Coptic Root</h1>
           <p className="hero-subtitle">The Centralized Hub for Coptic Orthodox Resources</p>
         </div>
       </div>
