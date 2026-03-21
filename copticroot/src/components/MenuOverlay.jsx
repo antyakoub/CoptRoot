@@ -16,6 +16,7 @@ const MenuOverlay = ({ isOpen, onClose }) => {
       { title: 'Pray', sub: 'pray' },
       { title: 'Learn', sub: 'learn' },
       { title: 'Discover', sub: 'discover' },
+      { title: 'Find A Church', path: '/dioceses' },
       { title: 'Contact', path: '/contact' },
     ],
     pray: [
