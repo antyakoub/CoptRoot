@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import Routes instead of Switch
 import Navbar from './components/Navbar';
 import PageLayout from './components/PageLayout';
 import Home from './components/Home';
-import Dioceses from './components/Dioceses'
 import Icons from './components/Icons';
 import Podcasts from './components/Podcasts';
 import Ecf from './components/Ecf';
@@ -12,31 +11,34 @@ import AgpeyaPage from './components/Agpeya'
 import SermonPage from './components/Sermons';
 import SynaxariumPage from './components/SynaxariumPage';
 import Contact from './components/Contact';
-//import Hymns from './components/Hymns'; 
-// TODO: Import other components as needed
+
+// Lazy load the Dioceses component
+const Dioceses = lazy(() => import('./components/Dioceses'));
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} /> 
+        <Suspense fallback={<div className="loading-placeholder">Loading...</div>}>
+          <Routes>
+            <Route path="/" element={<Home />} /> 
 
-          {/* Layout for subpages */}
-          <Route element={<PageLayout />}>
-            <Route path="/icons" element={<Icons />} /> 
-            <Route path="/podcasts" element={<Podcasts />} />
-            <Route path="/ecf" element={<Ecf />} />        
-            <Route path="/agpeya" element={<AgpeyaPage />} />        
-            <Route path="/dioceses" element={<Dioceses />} />
-            {/* <Route path="/desertfathers" element={<DesertFathersPage />} /> */}
-            <Route path="/sermons" element={<SermonPage />} />
-            <Route path="/Synaxarium" element={<SynaxariumPage />} />
-            {/* <Route path="/resources" element={<Resources />} /> */}
-            <Route path="/contact" element={<Contact />} />     
-          </Route>
-        </Routes>
+            {/* Layout for subpages */}
+            <Route element={<PageLayout />}>
+              <Route path="/icons" element={<Icons />} /> 
+              <Route path="/podcasts" element={<Podcasts />} />
+              <Route path="/ecf" element={<Ecf />} />        
+              <Route path="/agpeya" element={<AgpeyaPage />} />        
+              <Route path="/dioceses" element={<Dioceses />} />
+              {/* <Route path="/desertfathers" element={<DesertFathersPage />} /> */}
+              <Route path="/sermons" element={<SermonPage />} />
+              <Route path="/Synaxarium" element={<SynaxariumPage />} />
+              {/* <Route path="/resources" element={<Resources />} /> */}
+              <Route path="/contact" element={<Contact />} />     
+            </Route>
+          </Routes>
+        </Suspense>
       </div>
     </Router>
   );
