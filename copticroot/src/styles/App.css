@@ -1,5 +1,20 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@font-face {
+  font-family: 'Aeonik-Regular';
+  src: url('/assets/fonts/Aeonik-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aeonik-Bold';
+  src: url('/assets/fonts/Aeonik-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 /* Apply the font globally */
 html, body {
@@ -7,7 +22,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Aeonik-Regular", sans-serif;
 }
 
 /* Optional: Specific classes for light and regular weights */

@@ -27,34 +27,112 @@
 }
 
 .hero-overlay {
-    text-align: center;
+    position: absolute;
+    bottom: clamp(40px, 10vh, 100px);
+    left: clamp(20px, 8vw, 100px);
+    text-align: left;
     color: white;
-    z-index: 1;
-    padding: 0 20px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(20px, 5vh, 40px);
+    width: fit-content;
 }
 
-.hero-title {
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
+.hero-text-block {
+    display: flex;
+    flex-direction: column;
 }
 
-.hero-subtitle {
-    font-size: 1.5rem;
-    font-weight: 300;
-    max-width: 600px;
-    margin: 0 auto;
+.line-wrapper {
+    overflow: hidden;
+    padding: 0.1em 0; /* Safety padding for rotated text */
 }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    .hero-title {
-        font-size: 2.5rem;
+.line-inner {
+    font-family: 'Aeonik-Bold', sans-serif;
+    font-size: clamp(3.5rem, 10vw, 10rem);
+    line-height: 1.1; /* Increased slightly for better descender clearance */
+    margin: 0;
+    text-transform: uppercase;
+    transform-origin: left bottom;
+    white-space: nowrap;
+    will-change: transform;
+}
+
+.coptic-text {
+    font-family: 'Noto Sans Coptic', sans-serif;
+    text-transform: none; 
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.gold-text {
+    color: #D4AF37;
+}
+
+.explore-cta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    font-family: 'Aeonik-Regular', sans-serif;
+    font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    width: fit-content;
+    padding: 10px 0;
+}
+
+.explore-cta:hover {
+    opacity: 0.7;
+    transform: translateX(5px);
+}
+
+.cta-arrow {
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+}
+
+/* Media Queries for fine-tuning */
+@media (max-width: 1024px) {
+    .line-inner {
+        font-size: clamp(3.5rem, 12vw, 8rem);
     }
-    .hero-subtitle {
-        font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .line-inner {
+        font-size: clamp(3rem, 15vw, 6rem);
+    }
+    .hero-overlay {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .line-inner {
+        font-size: clamp(2.5rem, 18vw, 4.5rem);
+    }
+    .hero-overlay {
+        bottom: 10%;
+        left: 30px;
+        gap: 25px;
+    }
+    .explore-cta {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero-overlay {
+        bottom: 20px;
+        gap: 15px;
+    }
+    .line-inner {
+        font-size: 8vh;
     }
 }
 
