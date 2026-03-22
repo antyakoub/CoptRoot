@@ -39,7 +39,7 @@ const Diocese = () => {
           <input
             type="text"
             className="search-input"
-            placeholder="Search dioceses..."
+            placeholder="Search by Church, State, or City..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
