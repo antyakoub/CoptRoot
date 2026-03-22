@@ -101,7 +101,7 @@ function Navbar() {
           </div>
         </div>
 
-        <Link to="/contact" className="nav-cta" onClick={closeMenu}>Find A Church</Link>
+        <Link to="/dioceses" className="nav-cta" onClick={closeMenu}>Find A Church</Link>
       </nav>
 
       <MenuOverlay isOpen={isMenuOpen} onClose={closeMenu} />
