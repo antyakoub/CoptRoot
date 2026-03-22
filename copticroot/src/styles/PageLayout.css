@@ -18,6 +18,7 @@
 */
 .page-layout-container > .agepya-container,
 .page-layout-container > .synaxarium-page,
+.page-layout-container > .diocese-container,
 .page-layout-container > .ecf-container {
     padding-top: 0 !important;
 }

@@ -44,7 +44,7 @@
 .menu-line {
     width: 100%; /* Set the line width to 100% of the parent container */
     height: 1.5px; /* Set the height of the line */
-    background-color: black; /* Color the line black */
+    background-color: rgba(255, 255, 255, 0.3); /* Color the line white with transparency */
     margin: 0; /* Remove any margin */
 }
 
@@ -73,7 +73,7 @@
 .content {
     display: flex; /* Use flexbox for the layout of content */
     flex-direction: column; /* Stack content items vertically */
-    background: white; /* Set a white background color for content */
+    background: transparent; /* Remove the white background for transparency */
     padding: 10px; /* Add padding around the content */
     font-family: 'Roboto', sans-serif; /* Use 'Roboto' font family for the content */
 }
@@ -83,23 +83,25 @@
     padding: 8px 15px; /* Set padding for each menu item */
     font-family: 'Roboto', sans-serif; /* Use 'Roboto' font family for menu items */
     font-size: 16px; /* Set font size for menu items */
-    color: #333; /* Set text color for menu items */
+    color: white; /* Set text color to white for better contrast */
     transition: background 0.3s; /* Smooth transition for background color changes */
 }
 
 .menu-item:hover {
-    background: white; /* Change background to white when hovering over menu items */
+    background: rgba(255, 255, 255, 0.1); /* Subtle hover effect */
 }
 
 .menu-item-container a {
     display: block; /* Make the link a block-level element */
-    padding: 5px 0; /* Set vertical padding for the link */
-    color: inherit; /* Inherit text color from parent element */
+    padding: 5px 15px; /* Set padding for the link */
+    color: white; /* Set link text color to white */
     text-decoration: none; /* Remove underline from the links */
-    background: linear-gradient(to left, #fff, #fff); /* Set a default gradient background */
-    transition: background 1.5s ease; /* Smooth transition for background color changes */
+    background: transparent; /* Default transparent background */
+    transition: all 0.3s ease; /* Smooth transition for interactions */
+    border-radius: 5px; /* Add rounded corners for hover */
 }
 
 .menu-item-container a:hover {
-    background: linear-gradient(to left, #0066ff, #fff); /* Change background to blue gradient on hover */
+    background: rgba(255, 255, 255, 0.15); /* Change background on hover */
+    padding-left: 20px; /* Slide effect on hover */
 }
