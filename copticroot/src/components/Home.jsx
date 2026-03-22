@@ -1,5 +1,6 @@
 import Video from "../assets/coptroot.mp4";
-import React, { useEffect, useRef } from 'react';
+import VideoWebm from "../assets/coptroot.webm";
+import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import '../styles/Home.css'; // Import the CSS for styling
 
@@ -54,12 +55,15 @@ const Home = () => {
       <div className="video-container">
         <video
           className="background-video"
-          src={Video}
           autoPlay
           loop
           muted
           playsInline
-        />
+        >
+          <source src={VideoWebm} type="video/webm" />
+          <source src={Video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="hero-overlay">
           <div className="hero-text-block">
             <div className="line-wrapper">
