@@ -1,5 +1,8 @@
 import Video from "../assets/coptroot.mp4";
 import VideoWebm from "../assets/coptroot.webm";
+import CrossIcon from '../assets/jesusFishcross.png';
+import CrownIcon from '../assets/crown-of-thorns.png';
+import LeavesIcon from '../assets/branch-leaves.png';
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import '../styles/Home.css'; // Import the CSS for styling
@@ -8,7 +11,38 @@ const Home = () => {
   const line1Ref = useRef(null);
   const line2Ref = useRef(null);
   const ctaRef = useRef(null);
-  const nextSectionRef = useRef(null);
+  const valueSectionRef = useRef(null);
+
+  const features = [
+    {
+      name: "The Foundation",
+      coptic: "ⲚⲒⲒⲰⲦ ⲚⲈⲄⲬⲈⲢⲈ",
+      desc: "Wisdom of the Fathers. Explore the foundational texts of the Early Church Fathers that shaped our spiritual heritage.",
+      visual: CrossIcon,
+      num: "01"
+    },
+    {
+      name: "The Practice",
+      coptic: "Ϯⲁⲅⲡⲓⲁ ⲛⲉⲙ ⲡⲓⲥⲩⲛⲁⲝⲁⲣⲓⲟⲛ",
+      desc: "Sacred Rhythm. Access the canonical prayers of the Agpeya and the daily lives of the Saints to nourish your daily walk.",
+      visual: CrownIcon,
+      num: "02"
+    },
+    {
+      name: "The Voice",
+      coptic: "Ⲡⲓⲥⲙⲏ ⲛ̀ⲱⲛϧ",
+      desc: "Living Tradition. Stream curated sermons and podcasts from modern Coptic fathers to bring ancient wisdom into the modern day.",
+      visual: LeavesIcon,
+      num: "03"
+    },
+    {
+      name: "The Reach",
+      coptic: "Ϯⲕⲟⲓⲛⲱⲛⲓⲁ",
+      desc: "Global Sanctuary. Connect with the global Coptic family, find your local parish, and access our library of resources.",
+      visual: CrossIcon,
+      num: "04"
+    }
+  ];
 
   useEffect(() => {
     const lines = [line1Ref.current, line2Ref.current];
@@ -45,8 +79,8 @@ const Home = () => {
   }, []);
 
   const scrollToNext = () => {
-    if (nextSectionRef.current) {
-      nextSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+    if (valueSectionRef.current) {
+      valueSectionRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -88,19 +122,46 @@ const Home = () => {
         </div>
       </div>
       
-      {/* Content section */}
+      {/* Value Proposition Section */}
+      <section className="value-proposition" ref={valueSectionRef}>
+        <div className="root-system-container">
+          <svg className="root-svg" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            {/* We'll use a placeholder or simplified root path if needed, 
+                but for now we'll keep it as a placeholder as the SVG wasn't provided. */}
+            <path 
+              className="root-path" 
+              d="M500,0 C500,200 400,300 300,500 C200,700 300,800 500,1000" 
+              fill="none" 
+              stroke="rgba(212, 175, 55, 0.2)" 
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+        <div className="features-container">
+          {features.map((feature, index) => (
+            <div className="feature-item" key={index}>
+              <div className="feature-number">{feature.num}</div>
+              <div className="feature-text">
+                <h3 className="feature-name">{feature.name}</h3>
+                <span className="coptic-subtitle">{feature.coptic}</span>
+                <p className="feature-desc">{feature.desc}</p>
+              </div>
+              <div className="feature-visual">
+                <div className="visual-inner">
+                  <img src={feature.visual} alt={feature.name} />
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+      
+      {/* Footer Frieze Image */}
       <img 
         className="frieze-image" 
         src="/assets/copticFrieze.jpg" 
-        alt="frieze" 
-        ref={nextSectionRef}
+        alt="Coptic Frieze Footer" 
       />
-      <div className="content">
-        <section className="content-section">
-          <h2>Why Coptic Root?</h2>
-          <p>In my experience many Coptic resources are fragmented and difficult to find, so a single platform would increase accessibility and community engagement.</p>
-        </section>
-      </div>
     </div>
   );
 };
