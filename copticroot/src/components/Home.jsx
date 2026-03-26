@@ -9,6 +9,7 @@ import '../styles/Home.css'; // Import the CSS for styling
 const Home = () => {
   const line1Ref = useRef(null);
   const line2Ref = useRef(null);
+  const descRef = useRef(null);
   const ctaRef = useRef(null);
   const valueSectionRef = useRef(null);
 
@@ -51,6 +52,10 @@ const Home = () => {
       y: '125%',
       rotate: 2.5,
     });
+    gsap.set(descRef.current, {
+      opacity: 0,
+      y: 10
+    });
     gsap.set(ctaRef.current, {
       opacity: 0,
       y: 20
@@ -66,6 +71,11 @@ const Home = () => {
       stagger: 0.1,
       delay: 0.5, // Slight delay to let page settle
     })
+    .to(descRef.current, {
+      opacity: 0.6,
+      y: 0,
+      duration: 1.2,
+    }, '-=0.5')
     .to(ctaRef.current, {
       opacity: 1,
       y: 0,
@@ -85,6 +95,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
+      <h1 className="sr-only">Coptic Root - Centralized Hub for Coptic Orthodox Resources</h1>
       <div className="video-container">
         <video
           className="background-video"
@@ -100,12 +111,16 @@ const Home = () => {
         <div className="hero-overlay">
           <div className="hero-text-block">
             <div className="line-wrapper">
-              <h1 className="line-inner coptic-text white-text" ref={line1Ref}>ⲤⲞⲢⲦⲒⲤ</h1>
+              <div className="line-inner coptic-text white-text" ref={line1Ref}>ⲤⲞⲢⲦⲒⲤ</div>
             </div>
             <div className="line-wrapper">
-              <h1 className="line-inner gold-text" ref={line2Ref}>ⲄⲞⲞⲦ</h1>
+              <div className="line-inner gold-text" ref={line2Ref}>ⲄⲞⲞⲦ</div>
             </div>
           </div>
+
+          <p className="hero-description" ref={descRef}>
+            A centralized hub for Coptic Orthodox resources, texts, and media.
+          </p>
           
           <div 
             className="explore-cta" 

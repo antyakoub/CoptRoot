@@ -4,6 +4,19 @@
     padding: 0;
 }
 
+/* SEO Utilities */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 /* Hero Section */
 .video-container {
     width: 100%;
@@ -71,6 +84,16 @@
 
 .gold-text {
     color: #D4AF37;
+}
+
+.hero-description {
+    font-family: 'Aeonik-Light', sans-serif;
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 500px;
+    line-height: 1.4;
+    margin: 0;
+    font-weight: 300;
 }
 
 .explore-cta {
