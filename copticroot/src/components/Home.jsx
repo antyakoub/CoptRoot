@@ -1,8 +1,7 @@
 import Video from "../assets/coptroot.mp4";
 import VideoWebm from "../assets/coptroot.webm";
-import CrossIcon from '../assets/jesusFishcross.png';
-import CrownIcon from '../assets/crown-of-thorns.png';
-import LeavesIcon from '../assets/branch-leaves.png';
+
+import LeavesIcon from '../assets/branch-leaves.png'; // Placeholder
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import '../styles/Home.css'; // Import the CSS for styling
@@ -18,14 +17,14 @@ const Home = () => {
       name: "The Foundation",
       coptic: "ⲚⲒⲒⲰⲦ ⲚⲈⲄⲬⲈⲢⲈ",
       desc: "Wisdom of the Fathers. Explore the foundational texts of the Early Church Fathers that shaped our spiritual heritage.",
-      visual: CrossIcon,
+      visual: LeavesIcon,
       num: "01"
     },
     {
       name: "The Practice",
       coptic: "Ϯⲁⲅⲡⲓⲁ ⲛⲉⲙ ⲡⲓⲥⲩⲛⲁⲝⲁⲣⲓⲟⲛ",
       desc: "Sacred Rhythm. Access the canonical prayers of the Agpeya and the daily lives of the Saints to nourish your daily walk.",
-      visual: CrownIcon,
+      visual: LeavesIcon,
       num: "02"
     },
     {
@@ -39,7 +38,7 @@ const Home = () => {
       name: "The Reach",
       coptic: "Ϯⲕⲟⲓⲛⲱⲛⲓⲁ",
       desc: "Global Sanctuary. Connect with the global Coptic family, find your local parish, and access our library of resources.",
-      visual: CrossIcon,
+      visual: LeavesIcon,
       num: "04"
     }
   ];
