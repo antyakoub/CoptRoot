@@ -55,6 +55,7 @@
 .hero-text-block {
     display: flex;
     flex-direction: column;
+    margin-left: -5px;
 }
 
 .line-wrapper {
